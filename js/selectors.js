@@ -1,8 +1,7 @@
 // declare your functions here...
 
 function paragraphSelector(){
-  const p = $('p');
-  return p;
+  return document.getElementsByTagName('p');
 }
 
 function lastImageSelector(){
